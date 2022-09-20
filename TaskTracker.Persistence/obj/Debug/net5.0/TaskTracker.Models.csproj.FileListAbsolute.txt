@@ -1,0 +1,12 @@
+D:\Work\TaskTracker\TaskTracker.Models\bin\Debug\net5.0\TaskTracker.Models.deps.json
+D:\Work\TaskTracker\TaskTracker.Models\bin\Debug\net5.0\TaskTracker.Models.dll
+D:\Work\TaskTracker\TaskTracker.Models\bin\Debug\net5.0\TaskTracker.Models.pdb
+D:\Work\TaskTracker\TaskTracker.Models\obj\Debug\net5.0\TaskTracker.Models.csproj.AssemblyReference.cache
+D:\Work\TaskTracker\TaskTracker.Models\obj\Debug\net5.0\TaskTracker.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\TaskTracker\TaskTracker.Models\obj\Debug\net5.0\TaskTracker.Models.AssemblyInfoInputs.cache
+D:\Work\TaskTracker\TaskTracker.Models\obj\Debug\net5.0\TaskTracker.Models.AssemblyInfo.cs
+D:\Work\TaskTracker\TaskTracker.Models\obj\Debug\net5.0\TaskTracker.Models.csproj.CoreCompileInputs.cache
+D:\Work\TaskTracker\TaskTracker.Models\obj\Debug\net5.0\TaskTracker.Models.dll
+D:\Work\TaskTracker\TaskTracker.Models\obj\Debug\net5.0\refint\TaskTracker.Models.dll
+D:\Work\TaskTracker\TaskTracker.Models\obj\Debug\net5.0\TaskTracker.Models.pdb
+D:\Work\TaskTracker\TaskTracker.Models\obj\Debug\net5.0\ref\TaskTracker.Models.dll

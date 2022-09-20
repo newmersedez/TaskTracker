@@ -1,0 +1,17 @@
+D:\Work\TaskTracker\TaskTracker.Services\obj\Debug\net5.0\TaskTracker.Services.csproj.AssemblyReference.cache
+D:\Work\TaskTracker\TaskTracker.Services\obj\Debug\net5.0\TaskTracker.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\TaskTracker\TaskTracker.Services\obj\Debug\net5.0\TaskTracker.Services.AssemblyInfoInputs.cache
+D:\Work\TaskTracker\TaskTracker.Services\obj\Debug\net5.0\TaskTracker.Services.AssemblyInfo.cs
+D:\Work\TaskTracker\TaskTracker.Services\obj\Debug\net5.0\TaskTracker.Services.csproj.CoreCompileInputs.cache
+D:\Work\TaskTracker\TaskTracker.Services\bin\Debug\net5.0\TaskTracker.Services.deps.json
+D:\Work\TaskTracker\TaskTracker.Services\bin\Debug\net5.0\TaskTracker.Services.dll
+D:\Work\TaskTracker\TaskTracker.Services\bin\Debug\net5.0\TaskTracker.Services.pdb
+D:\Work\TaskTracker\TaskTracker.Services\bin\Debug\net5.0\TaskTracker.Models.dll
+D:\Work\TaskTracker\TaskTracker.Services\bin\Debug\net5.0\TaskTracker.Persistence.dll
+D:\Work\TaskTracker\TaskTracker.Services\bin\Debug\net5.0\TaskTracker.Persistence.pdb
+D:\Work\TaskTracker\TaskTracker.Services\bin\Debug\net5.0\TaskTracker.Models.pdb
+D:\Work\TaskTracker\TaskTracker.Services\obj\Debug\net5.0\TaskTracker.Services.csproj.CopyComplete
+D:\Work\TaskTracker\TaskTracker.Services\obj\Debug\net5.0\TaskTracker.Services.dll
+D:\Work\TaskTracker\TaskTracker.Services\obj\Debug\net5.0\refint\TaskTracker.Services.dll
+D:\Work\TaskTracker\TaskTracker.Services\obj\Debug\net5.0\TaskTracker.Services.pdb
+D:\Work\TaskTracker\TaskTracker.Services\obj\Debug\net5.0\ref\TaskTracker.Services.dll
