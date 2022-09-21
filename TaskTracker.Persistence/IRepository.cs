@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using TaskTracker.Models;
+
 namespace TaskTracker.Persistence
 {
     public interface IRepository<T> where T : class
@@ -5,5 +9,7 @@ namespace TaskTracker.Persistence
         void Add(T entity);
         void Update(T entity);
         void Delete(T entity);
+        T GetById(Guid id);
+        List<T> GetAll();
     }
 }

@@ -3,8 +3,10 @@ using TaskTracker.Models;
 
 namespace TaskTracker.Persistence
 {
-    public class TaskTrackerDbContext : DbContext
+    public sealed class TaskTrackerDbContext : DbContext
     {
+        public DbSet<TaskEntity> TaskEntities { get; set; }
+        
         public TaskTrackerDbContext() : base()
         { }
 
@@ -16,14 +18,12 @@ namespace TaskTracker.Persistence
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=tasktracker.db");
+            optionsBuilder.UseSqlite("Data Source=task_tracker.db");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<TaskEntity>().HasKey(x => x.Id);
         }
-
-        public DbSet<TaskEntity> TaskEntities { get; set; }
     }
 }

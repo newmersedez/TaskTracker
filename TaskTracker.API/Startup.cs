@@ -22,12 +22,12 @@ namespace TaskTracker.API
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-            services.AddSwaggerGen();
             services.AddDbContext<TaskTrackerDbContext>(options => 
-                options.UseSqlite("Data Source=tasktracker.db"));
+                options.UseSqlite("Data Source=task_tracker.db"));
             services.AddTransient<ITaskEntityRepository, TaskEntityRepository>();
             services.AddTransient<ITaskTrackerService, TaskTrackerService>();
+            services.AddControllers();
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

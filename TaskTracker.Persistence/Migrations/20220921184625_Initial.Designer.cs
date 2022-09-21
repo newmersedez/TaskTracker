@@ -9,7 +9,7 @@ using TaskTracker.Persistence;
 namespace TaskTracker.Persistence.Migrations
 {
     [DbContext(typeof(TaskTrackerDbContext))]
-    [Migration("20220920223330_Initial")]
+    [Migration("20220921184625_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,8 +24,17 @@ namespace TaskTracker.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Description")
                         .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("ExpireDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("Finished")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 

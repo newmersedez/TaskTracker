@@ -22,8 +22,17 @@ namespace TaskTracker.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Description")
                         .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("ExpireDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("Finished")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
