@@ -47,7 +47,7 @@ namespace TaskTracker.API.Controller
         
         [Route("/all")]
         [HttpGet]
-        public List<TaskEntity> GetAllTasks()
+        public IEnumerable<TaskEntity> GetAllTasks()
         {
             return _service.GetAllTaskEntities();
         }

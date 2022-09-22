@@ -11,6 +11,6 @@ namespace TaskTracker.Services
         void DeleteTaskEntity(Guid dtoId);
         void MarkTaskEntityAsFinished(Guid dtoId);
         public TaskEntity GetTaskEntityById(Guid id);
-        public List<TaskEntity> GetAllTaskEntities();
+        public IEnumerable<TaskEntity> GetAllTaskEntities();
     }
 }

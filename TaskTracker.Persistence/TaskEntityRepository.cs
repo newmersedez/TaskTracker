@@ -37,7 +37,7 @@ namespace TaskTracker.Persistence
             return _context.TaskEntities.SingleOrDefault(x => x.Id == id);
         }
 
-        public List<TaskEntity> GetAll()
+        public IEnumerable<TaskEntity> GetAll()
         {
             return _context.TaskEntities.ToList();
         }

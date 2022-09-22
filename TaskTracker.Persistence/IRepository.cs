@@ -10,6 +10,6 @@ namespace TaskTracker.Persistence
         void Update(T entity);
         void Delete(T entity);
         T GetById(Guid id);
-        List<T> GetAll();
+        IEnumerable<T> GetAll();
     }
 }

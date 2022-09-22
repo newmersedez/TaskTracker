@@ -22,7 +22,7 @@ namespace TaskTracker.Services
             return _context.TaskEntities.SingleOrDefault(x => x.Id == id);
         }
 
-        public List<TaskEntity> GetAllTaskEntities()
+        public IEnumerable<TaskEntity> GetAllTaskEntities()
         {
             return _context.TaskEntities.ToList();
         }
