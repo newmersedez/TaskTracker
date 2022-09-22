@@ -21,10 +21,7 @@ namespace TaskTracker.Models
             if (description.Length == 0)
                 throw new ArgumentException("Description is empty");
             if (expireDate <= DateTime.Now)
-            {
-                var time = DateTime.Now;
                 throw new ArgumentException("Invalid expire data");
-            }
 
             Id = new Guid();
             Type = type;
