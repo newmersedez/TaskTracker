@@ -7,7 +7,7 @@ using TaskTracker.Services;
 
 namespace TaskTracker.API.Controller
 {
-    [Route("api/v1.0/[controller]")]
+    [ApiController]
     public sealed class TaskController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly ITaskTrackerService _service;
@@ -17,7 +17,7 @@ namespace TaskTracker.API.Controller
             _service = service;
         }
         
-        [Route("/create")]
+        [Route("")]
         [HttpPost]
         public void CreateTask([FromBody] CreateTaskDto dto)
         {
